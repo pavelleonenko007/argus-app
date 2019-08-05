@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import playarrow from './img/play-arrow.svg';
 import './App.css';
 import Header from './components/Header';
-import SectionOne from './components/SectionOne';
+import SectionOne from './components/SectionOne/SectionOne';
 import SectionTwo from './components/SectionTwo';
 import SectionThree from './components/SectionThree';
 
