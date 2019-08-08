@@ -3,99 +3,23 @@ import logo from './logo.svg';
 import playarrow from './img/play-arrow.svg';
 import './App.css';
 import Header from './components/Header';
+import ReSectionOne from './components/SectionOne/ReSectionOne';
 import SectionOne from './components/SectionOne/SectionOne';
 import SectionTwo from './components/SectionTwo';
-import SectionThree from './components/SectionThree';
+import SectionThree from './components/SectionThree/SectionThree';
+import SectionFour from './components/SectionFour/SectionFour';
+import SectionFive from './components/SectionFive/SectionFive';
 
 function App() {
   return (
     <div>
       <Header />
-      <SectionOne />
+      <ReSectionOne />
       <SectionTwo />
       <SectionThree />
-      <div className="section">
-        <div className="wrapper">
-          <div className="row-3x w-row">
-            <div data-w-id="1c787311-19c1-b63f-a17d-e59fbdcbfb8e" className="col-3x left _4-img w-col w-col-6">
-              <div data-w-id="e6fd66f0-e564-714d-18de-531c8d39e954" className="_4-imgis">
-                <img src="./img/5d2d7b6eb1d789c89d4d14d5_IMG51633-1024x683.jpg" alt="" className="glitch__img" />
-                <img src="./img/5d2d7b6eb1d789c89d4d14d5_IMG51633-1024x683.jpg" alt="" className="glitch__img" />
-                <img src="./img/5d2d7b6eb1d789c89d4d14d5_IMG51633-1024x683.jpg" alt="" className="glitch__img" />
-                <img src="./img/5d2d7b6eb1d789c89d4d14d5_IMG51633-1024x683.jpg" alt="" className="glitch__img" />
-                <img src="./img/5d2d7b6eb1d789c89d4d14d5_IMG51633-1024x683.jpg" alt="" className="glitch__img" />
-              </div>
-              <div className="line-gens">
-                <div className="green-line">
-                </div>
-                <div className="green-line">
-                </div>
-                <div className="green-line">
-                </div>
-              </div>
-            </div>
-            <div className="col-3x left w-clearfix w-col w-col-6">
-              <div className="small-h">услуги</div>
-              <h2>Регистрация электролаборатории</h2>
-              <div className="pclass">Регистрируем электролабораторию в Москве и Области всего за 30 дней. Свидетельство с гарантией на 45 видов испытаний.</div>
-              <a href="#" className="link w-inline-block" data-ix="line-arrow">
-                <div>Узнать подробнее</div>
-                <div className="before-txt-link">
-                  <div className="fon-arrow">
-                    <img src={playarrow} alt="" className="arrow-line" />
-                    <div className="line-arrow">
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div className="vertical-line">
-          </div>
-          <div className="vertical-line-25">
-          </div>
-        </div>
-        <div className="fon-greeer">
-        </div>
-        <div className="vertical-line _50">
-        </div>
-      </div>
-      <div className="section">
-        <div className="wrapper">
-          <div className="row-3x w-row">
-            <div className="col-3x left w-clearfix w-col w-col-6">
-              <div className="small-h">услуги</div>
-              <h2>Сертификаты ИСО</h2>
-              <div className="pclass">Легально, быстро, без лишней волокиты оформим ISO под ключ консультациями на всех этапах процесса и 100% гарантией.</div>
-              <a href="#" className="link w-inline-block" data-ix="line-arrow">
-                <div>Узнать подробнее</div>
-                <div className="before-txt-link">
-                  <div className="fon-arrow">
-                    <img src={playarrow} alt="" className="arrow-line" />
-                    <div className="line-arrow">
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div className="col-3x left w-clearfix w-col w-col-6">
-              <div className="small-h">услуги</div>
-              <div className="pclass">
-                <br />Сертификация ИСО необходима для участия в тендерах, льготных ставок по кредитам, организации структуры управления и умножения неэффективности, увеличения продажи продукции и/или услуг, увеличения шансов в конкурентной борьбе на рынке, повышения имиджа компании перед лицом зарубежных и российских инвесторов/партнёров.</div>
-            </div>
-          </div>
-          <div className="vertical-line">
-          </div>
-          <div className="vertical-line-25">
-          </div>
-        </div>
-        <div className="fon-greeer">
-        </div>
-        <div className="fon-green right">
-        </div>
-        <div className="vertical-line _50">
-        </div>
-      </div>
+      <SectionFour postid="0"/>
+      <SectionFive />
+      <SectionFour postid="1"/>
       <div className="section">
         <div className="wrapper">
           <div className="row-3x w-row">
